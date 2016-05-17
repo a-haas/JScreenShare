@@ -4,7 +4,7 @@ Lancer le serveur sur une machine (compilation java classique + méthode main co
 
 cd client
 
-Lancer la commande : wsimport -s . http://<ip>:8080/WS/RobotAPI?wsdl
+Lancer la commande : wsimport -s . http://(ip-serveur):8080/WS/RobotAPI?wsdl
 
 Cette commande permet de récupérer l'adresse ip et l'interface afin que celles-ci soient prise en compte dans le programme.
 
